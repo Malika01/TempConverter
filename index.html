@@ -1,0 +1,37 @@
+<html>
+<head >
+    <link rel="stylesheet" href="TCcss.css">
+<title>TEMP CONV</title>
+<script src="TCjs.js"></script>
+</head>
+<body align="center" style="font-family: Bahnschrift ">
+
+<div class="back">
+<h1>CHANGE FROM</h1>
+<button onclick="f('1')" class="b2">CELSIUS</button>
+<button onclick="f('2')" class="b2">FAHRENHEIT</button>
+<button onclick="f('3')" class="b2">KELVIN</button>
+</div> 
+
+<div class="back">
+<h1>CHANGE TO</h1>
+<button onclick="t('1')" class="b2">CELSIUS</button>
+<button onclick="t('2')" class="b2">FAHRENHEIT</button>
+<button onclick="t('3')" class="b2">KELVIN</button>
+</div>
+
+<div class="back">
+<input id="1" class="b2" type="number" size="15" maxlength="8" placeholder="Input">
+<input id="2" class="b2" type="number" size="15" maxlength="8" placeholder="Output" readonly>
+</div>
+
+<div class="back">
+<button class="b1" onclick="c()">CONVERT</button>
+</div>
+
+<div class="back">
+<input class="b1" onclick="r()" type="reset" value="RESET">
+</div>
+
+</body>
+</html>
